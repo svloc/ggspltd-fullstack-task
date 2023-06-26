@@ -28,8 +28,8 @@ Open your web browser and visit http://localhost:3000 to access the application.
 The project provides the following functionality:
 
 **User Login:** Users can log in to the application.
-**Logout: **Logged-in users can log out from the application.
+**Logout:** Logged-in users can log out from the application.
 **View All Posts:** Users can view all the posts.
 **Update Post:** Users can update existing posts.
 **Delete Post:** Users can delete existing posts.
-**Add Post: **Users can add new posts.
+**Add Post:** Users can add new posts.
