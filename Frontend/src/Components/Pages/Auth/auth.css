@@ -1,0 +1,40 @@
+/* login page start */
+.box-shadow-light {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.input-container {
+  max-width: 375px;
+  width: 90%;
+  padding: 1rem 1.5rem;
+  background-color: var(--white-color);
+  border-radius: 5px;
+}
+
+.line-in-text {
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.line-in-text:after,
+.line-in-text::before {
+  background-color: var(--btn-black-color);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.line-in-text:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.line-in-text:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/* login page end */

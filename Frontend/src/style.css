@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+:root {
+  --text-color: #183153;
+  --white-color: #fff;
+  --orange-light-color:#bfca02;
+  --font-mulish: "Mulish", sans-serif;
+  --red-color: #11862f;
+  --box-shadow-input: 0 0 0 0.012rem rgb(85 5 127);
+  --btn-black-color: #832561;
+  --box-shadow-input-focus: 0 0 0 0.11rem #832561;
+  --box-shadow-danger-btn-focus: 0 0 0 0.11rem var(--orange-light-color);
+  --box-shadow-danger-outlined-btn-focus: 0 0 0 0.11rem var(--red-color);
+}
+
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+  background-color: var(--white-color);
+  color: var(--text-color);
+  font-family: var(--font-mulish);
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #183153; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}

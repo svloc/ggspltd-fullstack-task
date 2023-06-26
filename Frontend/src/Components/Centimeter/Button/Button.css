@@ -1,0 +1,49 @@
+.btn {
+    padding: 0.45rem 1em;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: var(--font-mulish);
+    color: var(--text-color);
+  }
+  
+  button[disabled],input[disabled] {
+    cursor: not-allowed;
+  }
+
+  .btn-danger {
+    border: 1px solid var( --orange-light-color);
+    background-color: var(--white-color);
+    color: var( --text-color);
+  }
+  .btn-danger:focus {
+    box-shadow: var(--box-shadow-danger-btn-focus) !important;
+    border: 1px solid transparent;
+  }
+
+
+  .btn-black {
+    border: 1px solid var(--btn-black-color);
+    color: var(--white-color);
+    background-color: var(--btn-black-color);
+  }
+  .btn-black:hover {
+    border: 1px solid var(--btn-black-color);
+    background-color: var(--white-color);
+    color: var(--btn-black-color);
+  }
+  .btn-black:focus {
+    box-shadow: var(--box-shadow-input-focus) !important;
+    border: 1px solid transparent;
+  }
+
+  .btn-outlined-danger{
+    color: var(--btn-black-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--red-color);
+  }
+  .btn-outlined-danger:focus {
+    box-shadow: var(--box-shadow-danger-outlined-btn-focus) !important;
+    border: 1px solid transparent;
+  }
