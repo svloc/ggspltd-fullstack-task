@@ -16,12 +16,12 @@ table.customTable th {
 }
 
 table.customTable th {
-    background: #424242;
+    background: var(--btn-black-color);
     color: #fff;
     font-weight: 700;
     border: 0;
 }
 
 table.customTable thead {
-    background-color: #424242;
+    background-color: var(--btn-black-color);
 }

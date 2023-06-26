@@ -6,6 +6,7 @@ import AuthService from '../../Service/AuthService';
 import { PATH_NAME } from '../../Configs/PathName';
 import { clearSession } from '../../Storage/Storage';
 import { toast } from 'react-hot-toast';
+import { formatDate } from '../../Configs/UtilFunction';
 
 function PostList() {
   useEffect(() => {
@@ -52,10 +53,10 @@ function PostList() {
   }
 
   return (
-    <div>
+    <div className='container'>
       <h2 className='text-center'>Post List</h2>
-      <div>
-        <Button onClick={() => navigate(PATH_NAME.ADD_POST)}>Add Post</Button>
+      <div className='flex justify-content-between mb-2'>
+        <Button onClick={() => navigate(PATH_NAME.ADD_POST)}>Add Post +</Button>
         <Button variant='danger' onClick={handleLogout}>Logout</Button>
       </div>
 
@@ -75,7 +76,7 @@ function PostList() {
               <td>{onePost.id}</td>
               <td>{onePost.title}</td>
               <td>{onePost.description}</td>
-              <td>{onePost.createdDate}</td>
+              <td>{formatDate(onePost.createdDate)}</td>
               <td>
                 <Button
                   variant='outlined_danger'
